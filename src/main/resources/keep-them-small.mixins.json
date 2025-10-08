@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.tobzi.keepthemsmall.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PassiveEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}
